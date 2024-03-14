@@ -1,0 +1,4 @@
+FROM httpd
+COPY ./loginchatgpt.html /usr/local/apache2/htdocs
+
+EXPOSE 8080
